@@ -1,0 +1,4 @@
+This program is a medicine inventory system that keeps
+track of the medicine in stock, the expired medicine and
+prints out the medicine information through the methods
+restock(), dispense(), is_expired(), info()

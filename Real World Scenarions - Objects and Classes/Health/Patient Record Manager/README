@@ -1,0 +1,6 @@
+This program stores patient details in a hospital such as the
+name, age, gender, condition, room_number.
+The methods admit(), discharge(), update_condition() and info()
+are used to modify the patients' state in the hospital.
+This program helps n practicing object creation, modification and
+displaying information using objects and classes in Python.
