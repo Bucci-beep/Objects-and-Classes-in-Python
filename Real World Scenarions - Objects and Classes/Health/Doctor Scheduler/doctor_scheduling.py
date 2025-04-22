@@ -36,7 +36,23 @@ class Doctor:
 
         print(f"{self.name} is currently {status}")
 
-        
+    def info(self):
+        print("----- Doctor Information -----")
+        print(f"Name:   {self.name}")
+        print(f"Specialty: {self.specialty}")
+        print(f"Shift: {self.shift if self.shift else '(none)'}")
+        print(f"Available {'Yes' if self.available else 'No'}")
+        print("-------------------------------")
+
+dr = Doctor("Alice", "Pediatrics", "Evening", False)
+dr.info()
+dr.assign_shift("Morning")
+dr.change_availability(True)
+dr.info()
+
+
+
+
 
 
 
