@@ -44,7 +44,7 @@ class Doctor:
         print(f"Available {'Yes' if self.available else 'No'}")
         print("-------------------------------")
 
-dr = Doctor("Alice", "Pediatrics", "Evening", False)
+dr = Doctor("Alice", "Pediatrics", "none", False)
 dr.info()
 dr.assign_shift("Morning")
 dr.change_availability(True)

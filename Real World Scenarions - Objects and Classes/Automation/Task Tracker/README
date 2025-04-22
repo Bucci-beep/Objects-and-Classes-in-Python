@@ -1,0 +1,14 @@
+Task Automation Tracker is a simple Python application that helps
+you manage and track your daily tasks using object‑oriented principles.
+Each task has attributes like name, priority, duration, and status
+flags (started/completed), and methods to start, complete, update priority, and display info.
+
+Features
+
+Create and track multiple tasks
+
+Mark tasks as started and completed, with safeguards
+
+Update task priority at any time
+
+Display a clear summary of each task’s state
