@@ -1,0 +1,2 @@
+This program simulates an IoT-style smart lamp: you can switch it on/off, adjust
+brightness (only when on), and always get a quick status report.
