@@ -1,0 +1,10 @@
+The Appliance Usage Logger is a simple Python application for tracking
+how long appliances have been used. Each appliance is represented by a
+class with attributes for its name, power rating, and accumulated
+usage hours, plus methods to log usage, reset the counter, and display the current state.
+
+Call log_usage(hours) to add hours
+
+Call reset_usage() to zero out usage
+
+Call info() to see the current status
