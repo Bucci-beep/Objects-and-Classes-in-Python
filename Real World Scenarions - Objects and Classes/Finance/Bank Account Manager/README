@@ -1,0 +1,17 @@
+A simple Python program to simulate basic bank account operations such as depositing, withdrawing, and checking balances.
+
+Features
+
+- Create bank accounts with a holder name, balance, and account type.
+- Deposit funds into the account.
+- Withdraw money, with a check for sufficient balance.
+- Display account info and current balance.
+
+Concepts Practiced
+Class creation
+
+Attribute management
+
+Method implementation (deposit(), withdraw(), display_balance())
+
+Conditionals for logic control
