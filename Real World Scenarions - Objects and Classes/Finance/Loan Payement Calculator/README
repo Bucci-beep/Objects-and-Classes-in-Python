@@ -1,0 +1,38 @@
+A simple Python command-line application for calculating fixed-rate loan monthly payments using object‑oriented principles.
+
+This project models a loan with attributes for principal, annual interest rate, and term in years.
+It provides methods to calculate the standard amortized monthly payment and display loan details.
+
+## Files
+
+- loan_payment.py: Contains the `Loan` class definition with:
+  - `calculate_monthly_payment()`
+  - `info()` method
+  - Input validation in the constructor
+- main.py: Imports `Loan` and runs example scenarios under the `if __name__ == "__main__"` guard.
+
+## Features
+
+- Input validation for principal, interest rate, and term length
+- Handles zero‑interest loans gracefully
+- Nicely formatted output with currency and percentage
+
+- Constructor: `Loan(principal, interest_rate, term_years)`
+  - `principal` (float): amount borrowed (must be > 0)
+  - `interest_rate` (float): annual rate as decimal (>= 0)
+  - `term_years` (int): repayment period in years (> 0)
+
+- Methods:
+  - `calculate_monthly_payment()` → returns monthly payment (float)
+  - `info()` → prints principal, rate, term, and payment formatted
+
+## Example
+
+```python
+from loan import Loan
+
+loan = Loan(200_000, 0.045, 30)
+loan.info()
+```
+
+
