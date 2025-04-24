@@ -1,0 +1,38 @@
+# Budget Tracker
+
+A simple Python command‑line application to manage spending within predefined categories using object‑oriented design.
+Each `BudgetCategory` tracks expenses against a set limit and reports remaining funds.
+
+## Features
+
+- Create budget categories with names and spending limits
+- Add expenses to categories with validation
+- Calculate and display remaining budget per category
+- View a summary of category name, limit, total spent, and remaining balance
+
+
+- Use `add_expense(amount)` to record spending
+- Call `remaining_budget()` to get available funds
+- Call `info()` to see a detailed report
+
+- Attributes:
+  - `category_name` (str): Name of the budget group
+  - `limit` (float): Maximum allowed spending
+  - `expenses` (list of float): Logged expense amounts
+
+- Methods:
+  - `add_expense(amount)`: Add a positive expense
+  - `remaining_budget()`: Returns limit minus total expenses
+  - `info()`: Prints category summary
+
+## Example
+
+```python
+from budget import BudgetCategory
+
+food = BudgetCategory("Food", 250.00)
+food.add_expense(20.50)
+food.add_expense(15.00)
+food.info()
+```
+
