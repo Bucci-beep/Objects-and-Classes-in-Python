@@ -1,0 +1,14 @@
+This system practices the use of Inheritance by having a parent class: Person and subclasses: Member and Librarian
+Base Class: Person
+Attributes: first, last, email
+    Librarian: Inherits from Person, with an extra attribute: employee_id
+
+    Member: Inherits from Person, with an extra attribute: membership_id
+
+Extra functionality:
+
+    Both Librarian and Member should have a fullname() method.
+
+    Librarian has a method issue_book(book_title).
+
+    Member has a method borrow_book(book_title).

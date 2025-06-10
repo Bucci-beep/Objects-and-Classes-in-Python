@@ -1,0 +1,15 @@
+This program manages a fleet of vehicles for a delivery company.
+Base Class: Vehicle
+Attributes: make, model, year
+
+The subclasses are:
+    Car: Adds num_doors
+    Truck: Adds payload_capacity
+
+Extra functionality:
+    Both should have a vehicle_info() method that prints details.
+    Truck has an extra method load_cargo(weight) to load cargo if it’s within capacity.
+
+It prints out:
+ the vehicle details.
+ if the weight loaded onto the truck is acceptable or not
